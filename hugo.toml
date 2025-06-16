@@ -1,0 +1,44 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'The Censorship Forum'
+enableEmoji = true
+copyright = "© Zenith Rifle" # Footer copyright.
+pagination.pagerSize = 9
+
+theme = "vortisil"
+
+
+[params.meta]
+    description = "A static forum for censorship discussions." # Site description
+
+
+[[menus.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menus.main]]
+identifier = "new_thread"
+name = "New Thread"
+url = "https://github.com/eli32-vlc/censorshipforum"
+weight = 2
+
+[[menus.main]]
+identifier = "guide"
+name = "Guide"
+url = "/guide"
+weight = 3
+
+
+
+[params.comments]
+    enabled = true
+
+[params.comments.giscus]
+    repo = "eli32-vlc/censorshipforum"
+    repoId = "R_kgDOO8TJcg"
+    category = "General"
+    categoryId = "DIC_kwDOO8TJcs4CrjOx"
+    mapping = "pathname"
+    lang = "en"
