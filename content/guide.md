@@ -5,14 +5,62 @@ title = 'Guide'
 author = "Zenith Rifle"
 +++
 
-# How to use it?
+# Using This Platform
 
-To create a new thread just click the new thread button and create a file inside the content/posts folder with the correct formatting and submit a pull request. Once your pull request has been merged you are done.
+To start a new thread, click the "New Thread" button. Then, create a new file within the content/posts directory using the correct format. Submit your changes via a pull request. Once the pull request is reviewed and merged, your thread will go live.
 
-# What type of content is allowed here?
+# What Content Is Allowed?
 
-Anything censorship related eg support discussion. Just make sure to follow Github content policy.
+This space is dedicated to censorship-related topics, including discussions, support, and resources. Please ensure your contributions comply with GitHub’s content policy.
 
-# Who made it?
+# Content Review Process
 
-Zenith Rifle
+- All content is reviewed manually.
+- Pull requests are typically reviewed within a few days.
+- You may be asked to revise content if it doesn't follow guidelines.
+
+
+# Code of Conduct
+
+- Be respectful and constructive.
+- No hate speech, harassment, or spam.
+- Treat others as you’d like to be treated.
+
+# Frequently Asked Questions (FAQ)
+
+
+Q: Can I edit my post later?
+
+A: Yes, submit another pull request with your changes.
+
+Q: What if my PR is rejected?
+
+A: You’ll receive feedback and may revise and resubmit.
+
+Q: Can I submit anonymously?
+
+A: You may use a pseudonymous GitHub account.
+
+# Contribution Credits
+
+Thanks to all contributors who help improve and maintain this platform.
+
+# Purpose and Mission
+
+This platform exists to provide a space for open discussion and documentation of censorship-related experiences and ideas. We aim to foster respectful and insightful conversation.
+
+# Examples
+
+Example file:
+```
++++
+title = "Example Thread"
+date = "2025-06-15"
++++
+
+This is a sample post demonstrating formatting and structure.
+```
+
+# Who Created This?
+
+This project was developed by Zenith Rifle.
