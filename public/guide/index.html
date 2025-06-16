@@ -138,15 +138,12 @@
 
 
   <main>
-    
-
-
+     
 
 <h1>Guide</h1>
 
 <div class="article-tag">
-  
-  
+	
 </div>
 
 <h1 id="using-this-platform">Using This Platform</h1>
@@ -187,17 +184,44 @@ date = &#34;2025-06-15&#34;
 This is a sample post demonstrating formatting and structure.</code></pre>
 </div><h1 id="who-created-this">Who Created This?</h1>
 <p>This project was developed by Zenith Rifle.</p>
+   
+<div id="remark42"></div>
+
+<script>
+	var remark_config = {
+		host: "https://comments.7844380499.cfd",
+		site_id: "forum",
+		components: ["embed"],
+		theme: "dark",
+		locale: "en",
+		page_title: "Guide",
+	};
+</script>
+
+<script>
+	(function (components, document) {
+		for (var i = 0; i < components.length; i++) {
+			var script = document.createElement("script"),
+				extension = ".js",
+				target = document.head || document.body;
+
+			if ("noModule" in script) {
+				script.type = "module";
+				extension = ".mjs";
+			} else {
+				script.async = true;
+			}
+
+			script.defer = true;
+			script.src =
+				remark_config.host + "/web/" + components[i] + extension;
+			target.appendChild(script);
+		}
+	})(remark_config.components || ["embed"], document);
+</script>
 
 
-
-
-
-  
-<div class="giscus-comments" id="giscus-container"></div>
-
-
-
-
+ 
   </main>
 
   

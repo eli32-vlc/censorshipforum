@@ -1,3 +1,36 @@
-{{ with .Site.Params.comments.giscus }}
-<div class="giscus-comments" id="giscus-container"></div>
+{{ with .Site.Params.comments.enabled }}
+<div id="remark42"></div>
+
+<script>
+	var remark_config = {
+		host: "https://comments.7844380499.cfd",
+		site_id: "forum",
+		components: ["embed"],
+		theme: "{{ $.Site.Params.remark42_theme | default `dark` }}",
+		locale: "{{ $.Site.Language.Lang | default `en` }}",
+		page_title: "{{ $.Title }}",
+	};
+</script>
+
+<script>
+	(function (components, document) {
+		for (var i = 0; i < components.length; i++) {
+			var script = document.createElement("script"),
+				extension = ".js",
+				target = document.head || document.body;
+
+			if ("noModule" in script) {
+				script.type = "module";
+				extension = ".mjs";
+			} else {
+				script.async = true;
+			}
+
+			script.defer = true;
+			script.src =
+				remark_config.host + "/web/" + components[i] + extension;
+			target.appendChild(script);
+		}
+	})(remark_config.components || ["embed"], document);
+</script>
 {{ end }}
